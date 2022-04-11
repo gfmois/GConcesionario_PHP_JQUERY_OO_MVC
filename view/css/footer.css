@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+#footer {
+  bottom: 0px;
+}
+
+#footer {
+  position: fixed;
+  display: block;
+  width: 100%;
+  background: rgba(160, 197, 245, 0.603);
+  z-index: 9;
+  text-align: center;
+  color: #000000;
+  padding: 4px 0 4px 0;
+}

@@ -1,0 +1,39 @@
+<header>
+    <div class="wrap-header zerogrid">
+        <div class="row" id="menuRow">
+            <div id="cssmenu">
+                <ul>
+                    <li class='active'><a href="index.php?module=home">Inicio</a></li>
+                    <li><a href="index.php?module=shop">Vehículos</a></li>
+                    <li><a href="index.php?module=about">Sobre Nosotros</a></li>
+                    <li><a href="index.php?module=contact">Contactanos</a></li>
+                    <li>
+                        <a class="fa fa-search sIcon"></a>
+                    </li>
+                    <li id="user">
+                        <a href="index.php?module=auth" id="userIcon" class="fas fa-user-circle"></a>
+                    </li>
+                </ul>
+            </div>
+            <a href='index.php' class="logo"><img src="view/images/logo.png" /></a>
+            <div class="search-menu">
+                <div class="custom-select">
+                    <select class="catCB" id="catCB">
+                        <option value="-">Todas las Categorías</option>
+                    </select>
+                    <span class="custom-arrow"></span>
+                </div>
+                <div class="custom-select">
+                    <select class="brandCB" id="brCB">
+                        <option value="-">Todas las Marcas</option>
+                    </select>
+                    <span class="custom-arrow"></span>
+                </div>
+                <input type="text" placeholder="Buscar..." id="search-input" autocomplete="off">
+                <button class="searchBtn">
+                    <i class="fas fa-search-location"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>

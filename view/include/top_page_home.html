@@ -1,0 +1,34 @@
+<script src="view/js/jquery-latest.min.js"></script>
+<script src="view/js/jquery183.min.js"></script>
+
+<script src="view/js/script.js"></script>
+<script src="view/js/responsiveslides.min.js"></script>
+<link rel="stylesheet" href="view/css/responsiveslides.css">
+
+<!-- Swiper Carousel -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="view/css/swiper.css">
+
+<!-- <script src="view/js/owl.carousel.min.js"></script> -->
+<script type="module" src="module/home/controller/HomepageController.js"></script>
+
+<style>
+    .swiper {
+        width: 90%;
+        height: 400px;
+    }
+</style>
+
+<script>
+    $(function() {
+        // Slideshow
+        $("#slider").responsiveSlides({
+            auto: true,
+            pager: false,
+            nav: false,
+            speed: 500,
+            namespace: "callbacks",
+        });
+    });
+</script>
